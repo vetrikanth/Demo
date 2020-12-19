@@ -1,0 +1,16 @@
+type Bike {
+
+	
+	modelCode: String,
+	brandName: String,
+	
+}
+
+type Query {
+	model(model: String):Bike
+	
+}
+
+type Mutation {
+	brand(brand: String):Bike
+}
